@@ -1,14 +1,13 @@
 # financial-statement
-\f0\fs24 \cf0 # financial_statement\
-\
+
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)\
-\
-# Overview\
+
+# Overview
 \
 financial_statement is a Python package that allows you to read the financial statements of listed companies.\
 \
-## Installation\
-\
+## Installation
+
 ```bash\
 pip install financial_statement
 ```
