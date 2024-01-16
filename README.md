@@ -8,7 +8,7 @@ financial_statement is a Python package that allows you to read the financial st
 \
 ## Installation
 
-```bash\
+```bash
 pip install financial_statement
 ```
 }
@@ -18,21 +18,21 @@ import financial_statement as fs
 # get annual income statement
 ticket = "AAPL"
 year = "2023" # it is string
-income_statement = income_statement(ticket,year)
+income_statement = fs.income_statement(ticket,year)
 
 # get balance sheet
-balance_sheet = balance_sheet(ticket,year)
+balance_sheet = fs.balance_sheet(ticket,year)
 
 # get cash flow statement
-cash_flow_statement = cash_flow_statement(ticket,year)
+cash_flow_statement = fs.cash_flow_statement(ticket,year)
 
 # get dividend from company
-dividend = get_dividend(ticket)
+dividend = fs.get_dividend(ticket)
 # if you want get annual received dividend
-annual_dividend = get_dividend(ticket,YTM=True)
+annual_dividend = fs.get_dividend(ticket,YTM=True)
 
 # get shareholder list
-shareholder = shareholder(ticket)
+shareholder = fs.shareholder(ticket)
 ```
 
 ## Source
