@@ -1,11 +1,11 @@
-# financial-statement
+# scraping financial-statement
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)\
 
 # Overview
-\
-financial_statement is a Python package that allows you to read the financial statements of listed companies.\
-\
+
+financial_statement is a Python library package that allows you to read the financial statement's data of listed companies in the world.
+
 ## Installation
 
 ```bash
